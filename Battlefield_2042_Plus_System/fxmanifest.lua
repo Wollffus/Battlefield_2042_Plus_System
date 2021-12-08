@@ -8,6 +8,8 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 
 ui_page 'HUD/index.html'
 
+lua54 'yes'
+
 server_script {
     'ensure.lua'
 }
