@@ -1,0 +1,53 @@
+.center {
+    width:50px;
+    height:50px;
+    padding-top: 2px;
+    background-color:#03f5b4;
+    position:absolute;
+}
+
+.centerimg {
+    max-height: 46px;
+    max-width: 46px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.weapon {
+    position:relative;
+    height: 400px;
+    width: 600px;
+    margin: 100px auto 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding-top: 130px;
+    border-top: 10px solid rgba(247, 247, 247, 0);
+    background-size: 1000px;
+}
+
+.weaponimg {
+    height: 140px;
+}
+
+.compimg {
+    max-height: 46px;
+    max-width: 46px;
+}
+
+.comp {
+    width:50px;
+    height:50px;
+    padding-top: 2px;
+    background-color:#03f5b467;
+    position:absolute;
+}
+
+.comp:hover {
+    background-color:#03f5cd;
+}

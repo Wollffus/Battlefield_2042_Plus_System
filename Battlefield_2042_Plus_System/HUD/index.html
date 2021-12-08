@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="nui://Battlefield_2042_Plus_System/HUD/style.css">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+                <!---------------------------------------------------Start of Vanilla Weapons--------------------------------------------------->
+<!-- combat_pistol -->
+<div class="weapon" id="1593441988">
+    <div class="center" style="bottom:130px;right:275px;">
+        <img class="centerimg" src="./Cross.png">
+    </div>
+                <div onclick="getclick('COMPONENT_COMBATPISTOL_CLIP_01', 'weapon_combatpistol')" class="comp" style="bottom:75px;right:275px;">
+                    <img class="compimg" src="./images/combat_pistol/CombatPistol-GTAV-MagDefault.png">
+                </div>
+                <div onclick="getclick('COMPONENT_COMBATPISTOL_CLIP_02', 'weapon_combatpistol')" class="comp" style="bottom:20px;right:275px;">
+                    <img class="compimg" src="./images/combat_pistol/CombatPistol-GTAV-MagExtended.png">
+                </div>
+    
+                <div onclick="getclick('COMPONENT_AT_PI_FLSH', 'weapon_combatpistol')" class="comp" style="bottom:130px;right:330px;">
+                    <img class="compimg" src="./images/combat_pistol/Flashlight_GTAV.png">
+                </div>
+    
+                <div onclick="getclick('COMPONENT_AT_PI_SUPP', 'weapon_combatpistol')" class="comp" style="bottom:130px;right:220px;">
+                    <img class="compimg" src="./images/combat_pistol/Suppressor_render1.png">
+                </div>
+            </div>
+    <!-- Combat_MG -->
+            <div class="weapon" id="2144741730">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_COMBATMG_CLIP_01', 'weapon_combatmg')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Combat_MG/CombatMG-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_COMBATMG_CLIP_02', 'weapon_combatmg')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Combat_MG/CombatMG-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MEDIUM', 'weapon_combatmg')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Combat_MG/Scope_L_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_combatmg')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Combat_MG/Grip_GTAV.png">
+                            </div>
+                        </div>
+    <!-- Combat_PDW -->
+            <div class="weapon" id="171789620">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_COMBATPDW_CLIP_01', 'weapon_combatpdw')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Combat _PDW/CombatPDW-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_COMBATPDW_CLIP_02', 'weapon_combatpdw')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Combat _PDW/CombatPDW-GTAV-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_COMBATPDW_CLIP_03', 'weapon_combatpdw')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/Combat _PDW/CombatPDW-GTAO-MagDrum.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_combatpdw')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Combat _PDW/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_combatpdw')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Combat _PDW/Grip_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_SMALL', 'weapon_combatpdw')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Combat _PDW/Scope_M_GTAV.png">
+                            </div>
+                        </div>
+    <!-- Carbine_Rifle -->
+            <div class="weapon" id="-2084633992">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_CARBINERIFLE_CLIP_01', 'weapon_carbinerifle')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Carbine_Rifle/CarbineRifle-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_CARBINERIFLE_CLIP_02', 'weapon_carbinerifle')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Carbine_Rifle/CarbineRifle-GTAV-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_CARBINERIFLE_CLIP_03', 'weapon_carbinerifle')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/Carbine_Rifle/CarbineRifle-GTAO-MagBox.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_carbinerifle')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Carbine_Rifle/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_carbinerifle')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Carbine_Rifle/Grip_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MEDIUM', 'weapon_carbinerifle')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Carbine_Rifle/Scope_L_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP', 'weapon_carbinerifle')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Carbine_Rifle/Suppressor_render3.png">
+                            </div>
+                        </div>
+    <!-- Bullpup_Rifle -->
+            <div class="weapon" id="2132975508">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_BULLPUPRIFLE_CLIP_01', 'weapon_bullpuprifle')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Bullpup_Rifle/BullpupRifle-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_BULLPUPRIFLE_CLIP_02', 'weapon_bullpuprifle')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Bullpup_Rifle/BullpupRifle-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_bullpuprifle')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Bullpup_Rifle/Flashlight-GTAV-Variant2b.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_SMALL', 'weapon_bullpuprifle')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Bullpup_Rifle/Scope_M_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP', 'weapon_bullpuprifle')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Bullpup_Rifle/Suppressor_render2.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_bullpuprifle')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Bullpup_Rifle/Grip_GTAV.png">
+                            </div>
+                        </div>
+    <!-- assault_smg -->
+            <div class="weapon" id="-270015777">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_ASSAULTSMG_CLIP_01', 'weapon_assaultsmg')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/assault_smg/AssaultSMG-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_ASSAULTSMG_CLIP_02', 'weapon_assaultsmg')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/assault_smg/AssaultSMG-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_assaultsmg')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/assault_smg/Flashlight-GTAV-Variant2b.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MACRO', 'weapon_assaultsmg')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/assault_smg/Scope_S_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_assaultsmg')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/assault_smg/Suppressor_render2.png">
+                            </div>
+                        </div>
+    <!-- Assault_Shotgun -->
+            <div class="weapon" id="-494615257">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_ASSAULTSHOTGUN_CLIP_01', 'weapon_assaultshotgun')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Assault_Shotgun/AssaultShotgun-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_ASSAULTSHOTGUN_CLIP_02', 'weapon_assaultshotgun')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Assault_Shotgun/AssaultShotgun-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_assaultshotgun')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Assault_Shotgun/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP', 'weapon_assaultshotgun')" class="comp" style="bottom:130px;right:220px">
+                                <img class="compimg" src="./images/Assault_Shotgun/Suppressor_render3.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_assaultshotgun')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Assault_Shotgun/Grip_GTAV.png">
+                            </div>
+                        </div>
+    <!-- Mini_SMG -->
+                <div class="weapon" id="-1121678507">
+                    <div class="center" style="bottom:130px;right:275px;">
+                        <img class="centerimg" src="./Cross.png">
+                    </div>
+                            <div onclick="getclick('COMPONENT_MINISMG_CLIP_01', 'weapon_minismg')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Mini_SMG/MiniSMG-GTAO-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_MINISMG_CLIP_02', 'weapon_minismg')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Mini_SMG/MiniSMG-GTAO-MagExtended.png">
+                            </div>
+                        </div>
+    
+    <!-- Pump_Shotgun -->
+                <div class="weapon" id="487013001">
+                    <div class="center" style="bottom:130px;right:275px;">
+                        <img class="centerimg" src="./Cross.png">
+                    </div>
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_pumpshotgun')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Pump_Shotgun/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SR_SUPP', 'weapon_pumpshotgun')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Pump_Shotgun/Suppressor_render4.png">
+                            </div>
+                        </div>
+    
+    <!-- MG -->
+                <div class="weapon" id="-1660422300">
+                    <div class="center" style="bottom:130px;right:275px;">
+                        <img class="centerimg" src="./Cross.png">
+                    </div>
+                            <div onclick="getclick('COMPONENT_MG_CLIP_01', 'weapon_mg')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/MG/MG-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_MG_CLIP_02', 'weapon_mg')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/MG/MG-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_SMALL_02', 'weapon_mg')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/MG/Scope_M_GTAV.png">
+                            </div>
+                        </div>
+    
+    <!-- pistol_50 -->
+            <div class="weapon" id="-1716589765">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_PISTOL50_CLIP_01', 'weapon_pistol50')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/pistol_50/Pistol_Mag1_GTAV.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_PISTOL50_CLIP_02', 'weapon_pistol50')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/pistol_50/Pistol_Mag2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_FLSH', 'weapon_pistol50')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/pistol_50/Flashlight_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_pistol50')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/pistol_50/Suppressor_render1.png">
+                            </div>
+                        </div>
+    
+    <!-- Micro_SMG -->
+            <div class="weapon" id="324215364">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_MICROSMG_CLIP_01', 'weapon_microsmg')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Micro_SMG/MicroSMG-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_MICROSMG_CLIP_02', 'weapon_microsmg')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Micro_SMG/MicroSMG-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_FLSH', 'weapon_microsmg')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Micro_SMG/Flashlight_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MACRO', 'weapon_microsmg')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Micro_SMG/Scope_S_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_microsmg')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Micro_SMG/Suppressor_render2.png">
+                            </div>
+                        </div>
+    
+    <!-- heavy_pistol -->
+            <div class="weapon" id="-771403250">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_HEAVYPISTOL_CLIP_01', 'weapon_heavypistol')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/heavy_pistol/CombatPistol-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_HEAVYPISTOL_CLIP_02', 'weapon_heavypistol')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/heavy_pistol/CombatPistol-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_FLSH', 'weapon_heavypistol')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/heavy_pistol/Flashlight_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_SUPP', 'weapon_heavypistol')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/heavy_pistol/Suppressor_render1.png">
+                            </div>
+                        </div>
+    
+    <!-- m_pistol -->
+            <div class="weapon" id="-619010992">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_MACHINEPISTOL_CLIP_01', 'weapon_machinepistol')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/m_pistol/MachinePistol-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_MACHINEPISTOL_CLIP_02', 'weapon_machinepistol')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/m_pistol/MachinePistol-GTAV-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_MACHINEPISTOL_CLIP_03', 'weapon_machinepistol')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/m_pistol/MachinePistol-GTAO-MagDrum.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_SUPP', 'weapon_machinepistol')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/m_pistol/Suppressor_render1.png">
+                            </div>
+                        </div>
+    
+    <!-- Marksman_Rifle -->
+            <div class="weapon" id="-952879014">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_MARKSMANRIFLE_CLIP_01', 'weapon_marksmanrifle')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Marksman_Rifle/MarksmanRifle-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_MARKSMANRIFLE_CLIP_02', 'weapon_marksmanrifle')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Marksman_Rifle/MarksmanRifle-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM', 'weapon_marksmanrifle')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Marksman_Rifle/Sniper_Scope1.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_marksmanrifle')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Marksman_Rifle/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP', 'weapon_marksmanrifle')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Marksman_Rifle/Suppressor_render3.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_marksmanrifle')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Marksman_Rifle/Grip_GTAV.png">
+                            </div>
+                        </div>
+    
+    <!-- Grenade_Launcher -->
+            <div class="weapon" id="-1568386805">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_grenadelauncher')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Grenade_Launcher/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_grenadelauncher')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Grenade_Launcher/Grip_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_SMALL', 'weapon_grenadelauncher')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Grenade_Launcher/Scope_M_GTAV.png">
+                            </div>
+                        </div>
+    
+    <!-- Special_Carbine -->
+            <div class="weapon" id="-1063057011">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_SPECIALCARBINE_CLIP_01', 'weapon_specialcarbine')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Special_Carbine/SpecialCarbine-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_SPECIALCARBINE_CLIP_02', 'weapon_specialcarbine')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Special_Carbine/SpecialCarbine-GTAV-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_SPECIALCARBINE_CLIP_03', 'weapon_specialcarbine')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/Special_Carbine/SpecialCarbine-GTAO-MagDrum.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_specialcarbine')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Special_Carbine/Flashlight-GTAV-Variant2b.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MEDIUM', 'weapon_specialcarbine')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Special_Carbine/Scope_L_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_specialcarbine')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Special_Carbine/Suppressor_render2.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_specialcarbine')" class="comp" style="bottom:75px;right:380px;">
+                                <img class="compimg" src="./images/Special_Carbine/Grip_GTAV.png">
+                            </div>
+                        </div>
+    <!-- APPistol -->
+            <div class="weapon" id="584646201">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+            </div>
+                            <div onclick="getclick('COMPONENT_APPISTOL_CLIP_01', 'weapon_appistol')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/ap_pistol/APPistol-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_APPISTOL_CLIP_02', 'weapon_appistol')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/ap_pistol/APPistol-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_FLSH', 'weapon_appistol')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/ap_pistol/Flashlight_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_SUPP', 'weapon_appistol')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/ap_pistol/Suppressor_render1.png">
+                            </div>
+                        </div>
+    
+    <!-- pistol -->
+            <div class="weapon" id="453432689">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_PISTOL_CLIP_01', 'weapon_pistol')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/pistol/Pistol_Mag1_GTAV.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_PISTOL_CLIP_02', 'weapon_pistol')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/pistol/Pistol_Mag2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_FLSH', 'weapon_pistol')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/pistol/Flashlight_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_SUPP_02', 'weapon_pistol')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/pistol/Suppressor_render1.png">
+                            </div>
+                        </div>
+    
+    <!-- AdvancedRifle -->
+            <div class="weapon" id="-1357824103">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_ADVANCEDRIFLE_CLIP_01', 'weapon_advancedrifle')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Advanced_Rifle/CarbineRifle-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_ADVANCEDRIFLE_CLIP_02', 'weapon_advancedrifle')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Advanced_Rifle/CarbineRifle-GTAV-MagExtended.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_advancedrifle')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Advanced_Rifle/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_SMALL', 'weapon_advancedrifle')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Advanced_Rifle/Scope_M_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP', 'weapon_advancedrifle')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Advanced_Rifle/Suppressor_render3.png">
+                            </div>
+                        </div>
+    
+    <!-- Compact_Rifle -->
+            <div class="weapon" id="1649403952">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_COMPACTRIFLE_CLIP_01', 'weapon_compactrifle')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Compact_Rifle/CompactRifle-GTAO-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_COMPACTRIFLE_CLIP_02', 'weapon_compactrifle')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Compact_Rifle/CompactRifle-GTAO-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_COMPACTRIFLE_CLIP_03', 'weapon_compactrifle')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/Compact_Rifle/CompactRifle-GTAO-MagDrum.png">
+                            </div>
+                        </div>
+    
+    <!-- Bullpup_Shotgun -->
+            <div class="weapon" id="-1654528753">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_bullpupshotgun')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Bullpup_Shotgun/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_bullpupshotgun')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Bullpup_Shotgun/Suppressor_render3.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_bullpupshotgun')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Bullpup_Shotgun/Grip_GTAV.png">
+                            </div>
+                        </div>
+    
+    <!-- smg -->
+            <div class="weapon" id="736523883">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_SMG_CLIP_01', 'weapon_smg')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/smg/SMG-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_SMG_CLIP_02', 'weapon_smg')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/smg/SMG-GTAV-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_SMG_CLIP_03', 'weapon_smg')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/smg/SMG-GTAO-MagDrum.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_smg')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/smg/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MACRO_02', 'weapon_smg')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/smg/Scope_S_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_PI_SUPP', 'weapon_smg')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/smg/Suppressor_render1.png">
+                            </div>
+                        </div>
+    
+    <!-- Heavy_Sniper -->
+            <div class="weapon" id="205991906">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_LARGE', 'weapon_heavysniper')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Heavy_Sniper/Sniper_Scope1.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MAX', 'weapon_heavysniper')" class="comp" style="bottom:240px;right:275px;">
+                                <img class="compimg" src="./images/Heavy_Sniper/Sniper_Scope2.png">
+                            </div>
+                        </div>
+    
+    <!-- SNS_Pistol -->
+                <div class="weapon" id="-1076751822">
+                    <div class="center" style="bottom:130px;right:275px;">
+                        <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_SNSPISTOL_CLIP_01', 'weapon_snspistol')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/SNS_Pistol/Pistol_Mag1_GTAV.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_SNSPISTOL_CLIP_02', 'weapon_snspistol')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/SNS_Pistol/Pistol_Mag2_GTAV.png">
+                            </div>
+                        </div>
+    
+    <!-- Sniper_Rifle -->
+                <div class="weapon" id="100416529">
+                    <div class="center" style="bottom:130px;right:275px;">
+                        <img class="centerimg" src="./Cross.png">
+                </div>
+                    <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_sniperrifle')" class="comp" style="bottom:130px;right:220px;">
+                        <img class="compimg" src="./images/Sniper_Rifle/Suppressor_render2.png">
+                    </div>
+    
+                    <div onclick="getclick('COMPONENT_AT_SCOPE_LARGE', 'weapon_sniperrifle')" class="comp" style="bottom:240px;right:275px;">
+                        <img class="compimg" src="./images/Sniper_Rifle/Sniper_Scope1.png">
+                    </div>
+                    <div onclick="getclick('COMPONENT_AT_SCOPE_MAX', 'weapon_sniperrifle')" class="comp" style="bottom:185px;right:275px;">
+                        <img class="compimg" src="./images/Sniper_Rifle/Sniper_Scope2.png">
+                    </div>
+                </div>
+    
+    <!-- AssaultRifle -->
+                <div class="weapon" id="-1074790547">
+                    <div class="center" style="bottom:130px;right:275px;">
+                        <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_ASSAULTRIFLE_CLIP_01', 'weapon_assaultrifle')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Assault_Rifle/AssaultRifle-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_ASSAULTRIFLE_CLIP_02', 'weapon_assaultrifle')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Assault_Rifle/AssaultRifle-GTAV-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_ASSAULTRIFLE_CLIP_03', 'weapon_assaultrifle')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/Assault_Rifle/AssaultRifle-GTAO-MagDrum.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_assaultrifle')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Assault_Rifle/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_SCOPE_MACRO', 'weapon_assaultrifle')" class="comp" style="bottom:185px;right:275px;">
+                                <img class="compimg" src="./images/Assault_Rifle/Scope_S_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_assaultrifle')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Assault_Rifle/Suppressor_render2.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_assaultrifle')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Assault_Rifle/Grip_GTAV.png">
+                            </div>
+                        </div>
+    
+    <!-- Gusenberg_Sweeper -->
+            <div class="weapon" id="1627465347">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_GUSENBERG_CLIP_01', 'weapon_gusenberg')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Gusenberg_Sweeper/GusenbergSweeper-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_GUSENBERG_CLIP_02', 'weapon_gusenberg')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Gusenberg_Sweeper/GusenbergSweeper-GTAV-MagDefault.png">
+                            </div>
+                        </div>
+    
+    <!-- Heavy_Shotgun -->
+            <div class="weapon" id="984333226">
+                <div class="center" style="bottom:130px;right:275px;">
+                    <img class="centerimg" src="./Cross.png">
+                </div>
+                            <div onclick="getclick('COMPONENT_HEAVYSHOTGUN_CLIP_01', 'weapon_heavyshotgun')" class="comp" style="bottom:75px;right:275px;">
+                                <img class="compimg" src="./images/Heavy_Shotgun/HeavyShotgun-GTAV-MagDefault.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_HEAVYSHOTGUN_CLIP_02', 'weapon_heavyshotgun')" class="comp" style="bottom:20px;right:275px;">
+                                <img class="compimg" src="./images/Heavy_Shotgun/HeavyShotgun-GTAV-MagExtended.png">
+                            </div>
+                            <div onclick="getclick('COMPONENT_HEAVYSHOTGUN_CLIP_03', 'weapon_heavyshotgun')" class="comp" style="bottom:-35px;right:275px;">
+                                <img class="compimg" src="./images/Heavy_Shotgun/HeavyShotgun-GTAO-MagDrum.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_FLSH', 'weapon_heavyshotgun')" class="comp" style="bottom:130px;right:330px;">
+                                <img class="compimg" src="./images/Heavy_Shotgun/Flashlight2_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_AFGRIP', 'weapon_heavyshotgun')" class="comp" style="bottom:75px;right:385px;">
+                                <img class="compimg" src="./images/Heavy_Shotgun/Grip_GTAV.png">
+                            </div>
+    
+                            <div onclick="getclick('COMPONENT_AT_AR_SUPP_02', 'weapon_heavyshotgun')" class="comp" style="bottom:130px;right:220px;">
+                                <img class="compimg" src="./images/Heavy_Shotgun/Suppressor_render2.png">
+                            </div>
+                        </div>
+    
+            <!---------------------------------------------------Start of Add-On Weapons--------------------------------------------------->
+    <!-- Sig P320 -->
+    </div>
+    <div class="weapon" id="1823666327">
+    <div class="center" style="bottom:130px;right:275px;">
+        <img class="centerimg" src="./Cross.png">
+    </div>
+        <div onclick="getclick('COMPONENT_SIG_SUPP_01', 'weapon_sig')" class="comp" style="bottom:130px;right:110px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SIG_SUPP_02', 'weapon_sig')" class="comp" style="bottom:130px;right:165px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SIG_SUPP_03', 'weapon_sig')" class="comp" style="bottom:130px;right:220px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Suppressor.png">
+        </div>
+    
+        <div onclick="getclick('COMPONENT_SIG_FLSH_01', 'weapon_sig')" class="comp" style="bottom:130px;right:330px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Flashlight.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SIG_FLSH_02', 'weapon_sig')" class="comp" style="bottom:130px;right:385px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Flashlight.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SIG_FLSH_03', 'weapon_sig')" class="comp" style="bottom:130px;right:440px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Flashlight.png">
+        </div>
+    
+        <div onclick="getclick('COMPONENT_SIG_SCOPE_01', 'weapon_sig')" class="comp" style="bottom:240px;right:275px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Scope.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SIG_SCOPE_02', 'weapon_sig')" class="comp" style="bottom:185px;right:275px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Scope.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SIG_SCOPE_03', 'weapon_sig')" class="comp" style="bottom:295px;right:275px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Scope.png">
+        </div>
+    
+        <div onclick="getclick('COMPONENT_SIG_CLIP_02', 'weapon_sig')" class="comp" style="bottom:75px;right:275px;">
+            <img class="compimg" src="./images/Sig_P320/Sig_Extended_Mag.png">
+        </div>
+    </div>
+    
+    <!-- Knight's Armament SR-25 -->
+            <div class="weapon" id="77322016">
+    <div class="center" style="bottom:130px;right:275px;">
+        <img class="centerimg" src="./Cross.png">
+    </div>
+                <div onclick="getclick('COMPONENT_SR25_CLIP_02', 'weapon_sr25')" class="comp" style="bottom:75px;right:275px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Magazine.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_CLIP_03', 'weapon_sr25')" class="comp" style="bottom:20px;right:275px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Magazine.png">
+                </div>
+    
+                <div onclick="getclick('COMPONENT_SR25_FLSH_01', 'weapon_sr25')" class="comp" style="bottom:130px;right:330px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Flashlight.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_FLSH_02', 'weapon_sr25')" class="comp" style="bottom:130px;right:385px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Flashlight.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_FLSH_03', 'weapon_sr25')" class="comp" style="bottom:130px;right:440px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Flashlight.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_FLSH_04', 'weapon_sr25')" class="comp" style="bottom:130px;right:495px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Flashlight.png">
+                </div>
+    
+                <div onclick="getclick('COMPONENT_SR25_SUPP_01', 'weapon_sr25')" class="comp" style="bottom:130px;right:220px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Suppressor.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SUPP_02', 'weapon_sr25')" class="comp" style="bottom:130px;right:165px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Suppressor.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SUPP_03', 'weapon_sr25')" class="comp" style="bottom:130px;right:110px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Suppressor.png">
+                </div>
+    
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_01', 'weapon_sr25')" class="comp" style="bottom:180px;right:275px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_02', 'weapon_sr25')" class="comp" style="bottom:235px;right:275px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_03', 'weapon_sr25')" class="comp" style="bottom:290px;right:275px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_04', 'weapon_sr25')" class="comp" style="bottom:345px;right:275px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_05', 'weapon_sr25')" class="comp" style="bottom:180px;right:330px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_06', 'weapon_sr25')" class="comp" style="bottom:235px;right:385px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_07', 'weapon_sr25')" class="comp" style="bottom:290px;right:440px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_08', 'weapon_sr25')" class="comp" style="bottom:345px;right:495px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_09', 'weapon_sr25')" class="comp" style="bottom:180px;right:220px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_10', 'weapon_sr25')" class="comp" style="bottom:235px;right:165px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_11', 'weapon_sr25')" class="comp" style="bottom:290px;right:110px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+                <div onclick="getclick('COMPONENT_SR25_SCOPE_12', 'weapon_sr25')" class="comp" style="bottom:345px;right:55px;">
+                    <img class="compimg" src="./images/KnightsArmament_SR25/KnightsArmament_SR25_Scope.png">
+                </div>
+            </div>
+    
+    <!-- Remington m700 -->
+    <div class="weapon" id="-303773045">
+    <div class="center" style="bottom:130px;right:275px;">
+        <img class="centerimg" src="./Cross.png">
+    </div>
+        <div onclick="getclick('COMPONENT_AT_AR_SUPP_M700', 'weapon_m700')" class="comp" style="bottom:130px;right:220px;">
+            <img class="compimg" src="./images/m700/m700_Suppressor.png">
+        </div>
+    
+        <div onclick="getclick('COMPONENT_AT_SCOPE_M700', 'weapon_m700')" class="comp" style="bottom:185px;right:275px;">
+            <img class="compimg" src="./images/m700/m700_Scope.png">
+        </div>
+        <div onclick="getclick('COMPONENT_M700_CLIP_01', 'weapon_m700')" class="comp" style="bottom:130px;right:330px;">
+            <img class="compimg" src="./images/m700/m700_Magazine.png">
+        </div>
+    </div>
+    
+    <!-- Beretta M9 -->
+    <div class="weapon" id="-961197366">
+    <div class="center" style="bottom:130px;right:275px;">
+        <img class="centerimg" src="./Cross.png">
+    </div>
+        <div onclick="getclick('COMPONENT_M9_SUPP_01', 'weapon_m9')" class="comp" style="bottom:130px;right:220px;">
+            <img class="compimg" src="./images/M9A3/M9A3_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_M9_FLSH_01', 'weapon_m9')" class="comp" style="bottom:185px;right:275px;">
+            <img class="compimg" src="./images/M9A3/M9A3_Flashlight.png">
+        </div>
+        <div onclick="getclick('COMPONENT_M9_CLIP_02', 'weapon_m9')" class="comp" style="bottom:130px;right:330px;">
+            <img class="compimg" src="./images/M9A3/M9A3_Extended_Mag.png">
+        </div>
+    </div>
+    
+    <!-- Glock 17 Custom -->
+    <div class="weapon" id="-120179019">
+    <div class="center" style="bottom:130px;right:275px;">
+        <img class="centerimg" src="./Cross.png">
+    </div>
+        <div onclick="getclick('COMPONENT_SUPP_01', 'weapon_glock')" class="comp" style="bottom:130px;right:165px;">
+            <img class="compimg" src="./images/Glock/Glock_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SUPP_02', 'weapon_glock')" class="comp" style="bottom:130px;right:110px;">
+            <img class="compimg" src="./images/Glock/Glock_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SUPP_03', 'weapon_glock')" class="comp" style="bottom:130px;right:220px;">
+            <img class="compimg" src="./images/Glock/Glock_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SUPP_04', 'weapon_glock')" class="comp" style="bottom:130px;right:55px;">
+            <img class="compimg" src="./images/Glock/Glock_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SUPP_05', 'weapon_glock')" class="comp" style="bottom:-25px;right:110px;">
+            <img class="compimg" src="./images/Glock/Glock_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SUPP_06', 'weapon_glock')" class="comp" style="bottom:25px;right:165px;">
+            <img class="compimg" src="./images/Glock/Glock_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SUPP_07', 'weapon_glock')" class="comp" style="bottom:75px;right:220px;">
+            <img class="compimg" src="./images/Glock/Glock_Suppressor.png">
+        </div>
+    
+        <div onclick="getclick('COMPONENT_SLIDE_01', 'weapon_glock')" class="comp" style="bottom:185px;right:275px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_02', 'weapon_glock')" class="comp" style="bottom:240px;right:275px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_03', 'weapon_glock')" class="comp" style="bottom:295px;right:275px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_04', 'weapon_glock')" class="comp" style="bottom:185px;right:330px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_05', 'weapon_glock')" class="comp" style="bottom:240px;right:380px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_06', 'weapon_glock')" class="comp" style="bottom:295px;right:430px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_07', 'weapon_glock')" class="comp" style="bottom:185px;right:220px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_08', 'weapon_glock')" class="comp" style="bottom:240px;right:165px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+        <div onclick="getclick('COMPONENT_SLIDE_09', 'weapon_glock')" class="comp" style="bottom:295px;right:110px;">
+            <img class="compimg" src="./images/Glock/Glock_Slide.png">
+        </div>
+    
+        <div onclick="getclick('COMPONENT_GLOCK_FLSH_01', 'weapon_glock')" class="comp" style="bottom:130px;right:330px;">
+            <img class="compimg" src="./images/Glock/Glock_Flashlight.png">
+        </div>
+        <div onclick="getclick('COMPONENT_GLOCK_FLSH_02', 'weapon_glock')" class="comp" style="bottom:130px;right:385px;">
+            <img class="compimg" src="./images/Glock/Glock_Flashlight.png">
+        </div>
+        <div onclick="getclick('COMPONENT_GLOCK_FLSH_03', 'weapon_glock')" class="comp" style="bottom:130px;right:440px;">
+            <img class="compimg" src="./images/Glock/Glock_Flashlight.png">
+        </div>
+        <div onclick="getclick('COMPONENT_GLOCK_FLSH_04', 'weapon_glock')" class="comp" style="bottom:130px;right:495px;">
+            <img class="compimg" src="./images/Glock/Glock_Flashlight.png">
+        </div>
+    </div>
+    
+    <!-- HK MP5 -->
+    <div class="weapon" id="-634552258">
+    <div class="center" style="bottom:130px;right:275px;">
+        <img class="centerimg" src="./Cross.png">
+    </div>
+        <div onclick="getclick('COMPONENT_AT_SCOPE_MP5', 'weapon_mp5')" class="comp" style="bottom:185px;right:275px;">
+            <img class="compimg" src="./images/MP5/MP5_Scope.png">
+        </div>
+        <div onclick="getclick('COMPONENT_AT_MP5_SUPP', 'weapon_mp5')" class="comp" style="bottom:130px;right:220px;">
+            <img class="compimg" src="./images/MP5/MP5_Suppressor.png">
+        </div>
+        <div onclick="getclick('COMPONENT_MP5_CLIP_01', 'weapon_mp5')" class="comp" style="bottom:75px;right:275px;">
+            <img class="compimg" src="./images/MP5/MP5_Magazine.png">
+        </div>
+    </div>
+        </body>
+</html>
