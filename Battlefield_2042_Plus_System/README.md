@@ -1,12 +1,9 @@
 ### Wolfhouse Resources (https://github.com/Wollffus) ###
 
 ### Battlefield_2042_Plus_System ###
-FiveM weapon attachment menu based off the Battlefield 2042 plus menu. 
-Used to attach componets such as suppressors, flashlights, sights, grips, slides and items alike. 
+FiveM weapon attachment menu based off the Battlefield 2042 plus menu.
+Used to attach componets such as suppressors, flashlights, sights, grips, slides and items alike.
 Need weapon on your player, do not need individual weapon items on player.
-
-### Ditial Life RP Battlefield 2042 Plus System ###
-Weapon attachment menu designed after the Battlefield 2042 "Plus Menu"
 
 ### Start of Installation ###
 
